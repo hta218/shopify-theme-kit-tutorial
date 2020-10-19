@@ -9,7 +9,7 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
 - Create Shopify Private App and config permission correctly by following the [starter instruction](https://shopify.github.io/themekit)
 
 - Install `theme-kit`
-  - MacOS: 
+  - MacOS:
     ```
     brew tap shopify/shopify
     brew install themekit
@@ -23,3 +23,7 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
   ```
   theme watch
   ```
+
+## More Refs
+
+- [Liquid cheatsheet](http://cheat.markdunkley.com/)
