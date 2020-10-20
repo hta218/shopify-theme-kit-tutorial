@@ -35,9 +35,6 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
     theme get --list -p=[your-password] -s=[you-store.myshopify.com]
     ```
 
-
-
-
 - Start the developement server
   ```
   theme watch
