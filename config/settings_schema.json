@@ -6,5 +6,19 @@
     "theme_author": "Shopify",
     "theme_documentation_url": "https:\/\/github.com\/Shopify\/themekit",
     "theme_support_url": "https:\/\/github.com\/Shopify\/themekit\/issues"
+  },
+  {
+    "name": "Mini Cart",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Mini cart content"
+      },
+      {
+        "type": "text",
+        "id": "test_data",
+        "label": "Test data"
+      }
+    ]
   }
 ]
