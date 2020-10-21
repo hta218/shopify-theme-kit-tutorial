@@ -18,6 +18,8 @@ Create **Shopify Private App** and config permission correctly by following the 
 8. Click **Save**.
 9. Read the private app confirmation dialog, then click **Create app**.
 
+![Imgur](https://i.imgur.com/PuVV84z.png)
+
 You’ll return to the app detail page. Your new, unique access credentials are visible in the **Admin API** section. Copy the password. You’ll use it in the next step.
 
 
