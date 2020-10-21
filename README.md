@@ -19,6 +19,22 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
     choco install themekit
     ```
 
+- Use starter code by:
+  - Create a new theme
+    ```
+    theme new --password=[your-password] --store=[your-store.myshopify.com] --name=[theme name]
+    ```
+
+  - Or configure an existing theme.
+    ```
+    theme get -p=[your-password] -s=[you-store.myshopify.com] -t=[your-theme-id]
+    ```
+
+    To get all theme's Ids:
+    ```
+    theme get --list -p=[your-password] -s=[you-store.myshopify.com]
+    ```
+
 - Start the developement server
   ```
   theme watch
