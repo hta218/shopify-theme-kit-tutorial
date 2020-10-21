@@ -25,12 +25,12 @@ You’ll return to the app detail page. Your new, unique access credentials are 
 
 
 ## Install `theme-kit`
-  - MacOS:
+  - MacOS (use [homebrew](https://brew.sh/)):
     ```
     brew tap shopify/shopify
     brew install themekit
     ```
-  - Window:
+  - Window (use [chocolatey](https://chocolatey.org/)):
     ```
     choco install themekit
     ```
@@ -76,10 +76,14 @@ theme watch --allow-live
 	theme open
 	```
 
+## Some developer rules
+
+- Theme files may not be stored in subfolders
 
 ## More References
 
 - [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
+- [Shopify Liquid Documentations](https://shopify.github.io/liquid/)
 - [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
 
 ## License

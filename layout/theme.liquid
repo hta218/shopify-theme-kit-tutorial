@@ -13,6 +13,7 @@
 </head>
 <body>
 	<h1>Hello world this is my first theme!!!</h1>
+	<h2>This is my shop {{ shop.name }}</h2>
   {% for link in linklists.main-menu.links %}
     {% assign child_list_handle = link.title | handleize %}
     {% if linklists[child_list_handle].links != blank %}
