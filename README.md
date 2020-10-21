@@ -56,7 +56,10 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
 	```
 
 
-
 ## More References
 
 - [Liquid cheatsheet](http://cheat.markdunkley.com/)
+
+## License
+
+Copyright © 2020 - Made by Leo @ [https://leohuynh.dev](https://leohuynh.dev)
