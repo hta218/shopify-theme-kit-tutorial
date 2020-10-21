@@ -40,10 +40,22 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
   theme watch
   ```
 
-	To watch for file changes and apply to live theme, add `--allow-live` flag
+	Add `--allow-live` flag to watch directory for changes and update remote theme
 	```
   theme watch --allow-live
   ```
+
+- Download changes from Shopify
+	```
+	theme download
+	```
+
+- Open live theme (store's preview)
+	```
+	theme open
+	```
+
+
 
 ## More Refs
 
