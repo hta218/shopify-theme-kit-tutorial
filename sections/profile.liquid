@@ -1,4 +1,9 @@
-<div>This is Profile section content</div>
+<div>
+  <h1>This is Profile section content</h1>
+  <h3 style="color: green;">{{ section.settings.header }}</h3>
+  <img src="{{ section.settings.user_img | img_url: '300x300' }}" alt="User photo">
+  <p>{{ section.settings.user_bio }}</p>
+</div>
 
 {% schema %}
 {
@@ -11,9 +16,14 @@
       "default": "Hello world"
     },
     {
-      "type": "image_picker",
       "id": "user_img",
+      "type": "image_picker",
       "label": "User Photo"
+    },
+    {
+      "id": "user_bio",
+      "type": "richtext",
+      "label": "User Bio"
     }
   ],
   "presets": [
