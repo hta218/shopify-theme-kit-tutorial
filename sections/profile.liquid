@@ -1,0 +1,26 @@
+<div>This is Profile section content</div>
+
+{% schema %}
+{
+  "name": "Profile",
+  "settings": [
+    {
+      "id": "header",
+      "type": "text",
+      "label": "Header",
+      "default": "Hello world"
+    },
+    {
+      "type": "image_picker",
+      "id": "user_img",
+      "label": "User Photo"
+    }
+  ],
+  "presets": [
+    {
+      "name": "User profile",
+      "category": "Profile"
+    }
+  ]
+}
+{% endschema %}

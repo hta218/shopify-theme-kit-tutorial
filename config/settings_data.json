@@ -1,6 +1,17 @@
 {
   "current": "Default",
   "presets": {
-    "Default": { }
+    "Default": {
+      "sections": {
+        "Profile": {
+          "type": "profile",
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "Profile"
+      ]
+    }
   }
 }

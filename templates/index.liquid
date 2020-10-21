@@ -1,6 +1,8 @@
 <h1>This should display on Homepage</h1>
 <h2>This line is an directly update from Shopify</h2>
 
+{{ content_for_index }}
+
 {% for product in collections.frontpage.products limit:4 %}
   <div>
     <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
