@@ -6,7 +6,20 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
 
 ## Get started
 
-- Create Shopify Private App and config permission correctly by following the [starter instruction](https://shopify.github.io/themekit)
+- Create Shopify Private App and config permission correctly by following the [starter instruction](https://shopify.github.io/themekit/#get-api-access)
+
+	#### Steps:
+	1. In the store’s Shopify admin, click Apps.
+	2. Near the bottom of the page, click on Manage private apps.
+	3. If you see a notice that “Private app development is disabled”, then click “Enable private app development”. (Note: 4. Only the store owner can enable private app development. Learn more about enabling private apps).
+	5. Click Create new private app.
+	6. In the App details section, fill out the app name and your email address.
+	7. In the Admin API section, click Show inactive Admin API permissions.
+	8. Scroll to the “Themes” section and select Read and write from the dropdown.
+	8. Click Save.
+	9. Read the private app confirmation dialog, then click Create app.
+
+	You’ll return to the app detail page. Your new, unique access credentials are visible in the Admin API section. Copy the password. You’ll use it in the next step.
 
 - Install `theme-kit`
   - MacOS:
