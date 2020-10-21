@@ -58,7 +58,8 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
 
 ## More References
 
-- [Liquid cheatsheet](http://cheat.markdunkley.com/)
+- [Liquid Cheat Sheet](http://cheat.markdunkley.com/)
+- [Shopify Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
 
 ## License
 
