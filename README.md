@@ -24,6 +24,11 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
   theme watch
   ```
 
+	To watch for file changes and apply to live theme, add `--allow-live` flag
+	```
+  theme watch --allow-live
+  ```
+
 ## More Refs
 
 - [Liquid cheatsheet](http://cheat.markdunkley.com/)
