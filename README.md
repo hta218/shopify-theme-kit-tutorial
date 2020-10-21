@@ -1,4 +1,4 @@
-## Shopify themekit playground
+## Shopify Themekit Starter Instruction
 
 Starter: [https://shopify.github.io/themekit/commands/#using-environments](https://shopify.github.io/themekit)
 
@@ -57,6 +57,6 @@ Tutorial: [https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-set
 
 
 
-## More Refs
+## More References
 
 - [Liquid cheatsheet](http://cheat.markdunkley.com/)
