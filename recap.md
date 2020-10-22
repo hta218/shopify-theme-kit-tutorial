@@ -1,6 +1,8 @@
-## Turorial notes
+## Turorial recap
 
 #### Sections
+
+- Section are accessible only for homepage
 
 - To add new **section**, create a **folder** with exactly name `sections` (then add `your-section.liquid`)
 
@@ -14,7 +16,7 @@
 
 #### Settings
 
-- Config `settings_schema.json` for general settings of your theme
+- Config `settings_schema.json` for general settings of your theme (those settings can be access on all your website via `settings.[property]`)
 
 #### Templates
 
