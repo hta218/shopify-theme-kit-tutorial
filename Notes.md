@@ -12,4 +12,11 @@
   - add `content_for_index` in `index.liquid`
   - Define the data in `config/settings_data.json`
 
+#### Settings
+
 - Config `settings_schema.json` for general settings of your theme
+
+#### Templates
+
+- To create a new template the file name must be `[page-name].[your-template-name].liquid` (ex: `product.featured.liquid`, `page.contact.liquid`)
+
