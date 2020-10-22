@@ -11,3 +11,5 @@
 - To add a section to home page:
   - add `content_for_index` in `index.liquid`
   - Define the data in `config/settings_data.json`
+
+- Config `settings_schema.json` for general settings of your theme
